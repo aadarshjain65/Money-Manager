@@ -1,0 +1,57 @@
+.table-row {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid #cbd5e1;
+    border-left: 1px solid #cbd5e1;
+    border-bottom: 1px solid #cbd5e1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .table-row {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+.transaction-text {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #475569;
+    width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+    .transaction-text {
+        font-size: 14px;
+    }
+}
+
+.delete-container {
+    display: flex;
+    width: 10%;
+}
+
+.delete-button {
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.delete-img {
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    align-self: center;
+    border: none;
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    .delete-img {
+        margin-right: 24px;
+    }
+}
